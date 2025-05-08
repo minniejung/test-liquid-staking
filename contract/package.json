@@ -5,7 +5,7 @@
     "deploy:kaia": "npx hardhat run scripts/deploy.ts --network kaia",
     "deploy:ganache": "npx hardhat run scripts/deploy.ts --network ganache",
     "test:function": "npx tsx scripts/testStaking.ts",
-    "test:chai":"npx hardhat test"
+    "test:chai": "npx hardhat test"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
