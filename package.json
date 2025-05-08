@@ -1,0 +1,12 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd frontend && npm run start",
+    "install": "cd frontend && npm install && cd .. && cd contract && npm install",
+    "deploy:contract": "cd contract && npm run deploy",
+    "deploy:client": "cd frontend && npm run deploy"
+  }
+}
